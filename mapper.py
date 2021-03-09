@@ -14,7 +14,6 @@ run local:
 
 from neomodel import (config, StructuredNode, StringProperty, IntegerProperty, UniqueIdProperty, RelationshipTo)
 
-#config.DATABASE_URL = 'bolt://neo4j:neo4j@35.192.106.131:7687'
 config.DATABASE_URL = 'bolt://neo4j:123456@localhost:7687'
 
 
